@@ -1,24 +1,12 @@
-#!/bin/bash
+#! /bin/bash
 
+sudo apt-get install update
+sudo apt-get install -y apache2
 
-if  ! gcloud version
+echo '<HTML><BODY><H1>Hello</H1></BODY></HTML>' >/var/www/html/index.html
+echo '<HTML><BODY><H1>Hello</H1></BODY></HTML>' | sudo tee /var/www/html/index.html
+cat /var/www/html/index.html
+sudo nano -IW /var/www/html/index.html
 
-then
-
-echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-sudo apt-get install apt-transport-https ca-certificates gnupg
-curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-sudo apt-get update && sudo apt-get install google-cloud-sdk
-
-fi
-
-if ! gcloud compute instancs list
-then
-
-gcloud init
-gcloud compute instances list
-
-fi
-
-if ! gcloud compute instances list | grep example-instances-3
-then
+<h1>My Website</h1>
+  <p>A website created by me father and daugther.</p>
