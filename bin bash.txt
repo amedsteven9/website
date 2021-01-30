@@ -1,12 +1,36 @@
-#! /bin/bash
+#!/bin/bash
 
-sudo apt-get install update
-sudo apt-get install -y apache2
 
-echo '<HTML><BODY><H1>Hello</H1></BODY></HTML>' >/var/www/html/index.html
-echo '<HTML><BODY><H1>Hello</H1></BODY></HTML>' | sudo tee /var/www/html/index.html
+if  ! apt-get install -y apache2
+
+then
+
+apt-get install -y apache2
+
+fi
+
+if ! echo '<HTML><BODY><H1>Hello</H1></BODY></HTML>' >/var/www/html/index.htmlecho
+then
+
+echo '<HTML><BODY><H1>Hello</H1></BODY></HTML>' >/var/www/html/index.htmlecho
+
+if ! '<HTML><BODY><H1>Hello</H1></BODY></HTML>' | sudo tee /var/www/html/index.html
+then
+
+
+'<HTML><BODY><H1>Hello</H1></BODY></HTML>' | sudo tee /var/www/html/index.html
+
+fi
+
+if ! cat /var/www/html/index.html
+then
+
 cat /var/www/html/index.html
+
+if ! sudo nano -IW /var/www/html/index.html
+then 
+
+
 sudo nano -IW /var/www/html/index.html
 
-<h1>My Website</h1>
-  <p>A website created by me father and daugther.</p>
+fi
