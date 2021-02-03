@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+</head>
+  <meta charste="utf-8">
+    <title>
+        <p>Netlinux sl website using html only --fullyworld web tutorrials</>
+ </title>
+<img src="https://storage.cloud.google.com/abie2/unnamed%20(1).png?authuser=1" width="300" height="100" />
+ </head>
+  <body>
+  <p>Netlinux Is The Best IT Training Website In The World Now NetLinux is an international IT consultancy oper$
+It was created by me (Graham North) in 2016 in order to pursue IT solutions as a business with global organisat$
+and help them with their projects using expert experience which is not found within their own organisations.
+NetLinux has helped some well known organisations including
+Sony, BBC, the UK government, Siemens, many global banks e.g. Lloyds, many global telecoms organisations e.g. V$
+NetLinux also works with colleagues on training programs, such as this one for NetLinux SL.
+:</p>
+  <img src="https://storage.cloud.google.com/abie2/2020-08-27%2022-33-42.png?authuser=1 width="300" height="200$
+  <img src="https://storage.cloud.google.com/abie2/XboxSeriesXandS_HERO.jpg?authuser=1" width="300" height="200$
+  <img src="https://storage.cloud.google.com/abie2/c505c37624b49f85f2647b4f006f5711.jpg?authuser=1" width=300" $
+  <img src="https://storage.cloud.google.com/abie2/maxresdefault.jpg?authuser=1" width="300" height="200" />
+  <img src="https://storage.cloud.google.com/abie2/55f727edbd86ef14008ba33e.jpeg?authuser=1" width="300" height$
+  <img src="https://storage.cloud.google.com/abie2/8beae78bd92fb694979562cc36da2914.jpg?authuser=1" width="300"$
+  </body>
+  </html>
+  <h1>My Website With All Types Things</h1>
+  <p>A Website Created By Graham Michael North.</p>
+  </body>
+  </html>
